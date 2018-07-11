@@ -1,0 +1,315 @@
+@font-face {
+    font-family: Batik-India;
+    src: url(fonts/Batik-India.otf);
+}
+
+body {
+    background-color: #3377ff;
+    text-align: center;
+    max-width: 959px;
+    max-height: 699px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+
+}
+.landingwrap {
+    background-color:#3377ff;
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0; 
+}
+.top {
+    animation: top 1.5s linear;    
+}
+@keyframes top {
+    100% {
+        top: -740px;
+    }
+    0% {
+        top: 0px;
+    }
+}
+.wrapchild {
+    text-align: center;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+  font-size: 140px;
+  text-align: center;
+  font-family: Batik-India;
+  line-height: 120px;
+  letter-spacing: -2px;
+  margin-top: 30px;
+  margin-bottom: 90px;
+}
+.title {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 150px;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    line-height: 20px; 
+    margin: 0; 
+    padding: 0;
+}   
+li {
+    text-align: center;
+    display: inline block;
+    margin: 0 auto;
+}
+li:hover {
+    text-decoration: underline;
+    text-decoration-color: rgba(255,181,75,.3);
+
+}
+.btitle {
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Gloria Hallelujah';
+    line-height: 40px;
+    color: rgba(255, 85, 111, 0.7);
+}
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 5;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px; 
+    height: 200px; 
+    background-color: #0e1215;
+    color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.6);  
+}
+.info-content {
+    width: 97%;
+    height: 95%;
+    padding: 0; 
+    margin: 1% auto;
+    border: solid thin rgba(255, 255, 255, 0.6);
+}
+.poppy {
+    text-align: left;
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 300;
+    
+}
+.close {
+    position: relative;
+    float: right;
+    padding-right: 8px;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+}
+.close:hover {
+        cursor: pointer;
+}
+button {
+    position: relative;
+    background-color: #009a83;
+    background-image: url("images/wave.png");
+    background-size: cover;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    top: 18px;
+    left: 45%;
+    padding: 0;
+    margin: 0px;
+    opacity: .8;
+    z-index: 6;
+   
+}
+button:hover {
+    background-color: #ff6933;
+    opacity: 1;
+}
+.vers {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 0px; 
+    opacity: .7;    
+
+
+}
+.main {
+    padding-bottom:20px;
+    margin-top: 0px;
+    font-family: Karla; 
+    opacity: .9;    
+
+}
+
+.selectwrap {
+    background-color: inherit;
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    opacity: 1;
+    transition: opacity 2s; 
+}
+.opa {
+    opacity: 0;
+}
+h2 {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 10px;
+    margin-top: 0;
+    font-family: Karla;
+}
+.outfits {
+    height: 220px;
+    width: 80%;
+    margin-top: 5%; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+
+}
+
+  .choice {
+        display: inline;
+        position: relative;
+        max-width: 125px;
+        max-height: 325px;
+        margin: 0 50px;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        -webkit-transition-duration: 0.05s;
+        transition-duration: 0.05s;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+      }
+    
+    .choice:hover {
+        -webkit-transform: translateY(-6px);
+        transform: translateY(-6px);
+    }
+
+  .stats {
+        float: left;
+        text-align: left;
+        display: none;
+        margin-top: 14%;
+        font-family: Karla;
+        font-size: 16px;    
+        line-height: 19px;  
+    }
+
+    h4 {
+        font-family: Oswald;
+        margin-bottom: 5px;
+    }
+
+    #wun {
+        margin-left: 23%;
+
+    }
+    #too {
+        margin-left: 42%;
+    }
+    #tree {
+        margin-left: 65%;
+
+    }
+
+.playcon {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        border: 0; 
+        z-index: 3;
+        background-color: #3377ff;
+        overflow: hidden;
+       
+    }
+    
+    .viewer {
+        width: 69.6%;
+        height: 67.5%;
+        background-image: url("images/smilerestcopy.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: solid 2px gray;
+        color: white;   
+        margin-left: auto;
+        margin-right: auto; 
+        padding: 0;
+
+    }
+    .text {
+        width: 100%;
+        height: 35%;
+        background-color: rgba(0, 0, 0, .4);
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto; 
+        margin-bottom: 5px;
+        padding: 0;
+        font-family: andale mono;
+        font-size: 18px;
+        color: white;
+    }
+    .prompt {
+        font-family: andale mono;
+        font-size: 20px;
+        color: white;
+        padding-left: 40px;
+        padding-top: 25px;
+    }
+    .options1 {
+        margin: 50px 50px 10px 50px;
+        overflow: auto;
+        
+    }
+    
+    .dec {
+        padding: 0;
+        margin: 0; 
+    }
+    .dec:hover {
+        cursor: pointer;
+    }
+    
+    #ay {
+        float: left;
+    }
+    #bee {
+        float: right;
+    }
+    .options2 {
+        margin: 20px 50px 10px 50px;
+        overflow: auto;
+    }
+    #see {
+        float: left;
+    }
+    #dee {
+        float: right;
+    }
